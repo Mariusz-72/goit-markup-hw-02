@@ -3,92 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="zadanie 1" content="width=device-width, initial-scale=1.0">
-    <title>Zadanie 1</title>
+    <meta name="zadanie 2" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio Zadanie 2</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"/>
+    
 </head>
 <body>
-<header>
- <h2>
-    <a href="#">WebStudio</a>
- </h2>
-    <nav>
-        <ul>
-            <li><a href="#">Agencja</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Kontakt</a></li>
-        </ul>
-    </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
+<header class="block">
+    <div class="header-outfield">
+        <div class="menu-navigation">
+                <section>
+                    <h2 class="logoupper">
+                        <a href="index.html">
+                        <span class="logo-web">Web</span>
+                        <span class="logo-studio">Studio</span></a>
+                    </h2>
+                </section>    
+                <nav>
+                    <ul class="main-nav">
+                        <li><a class="nav" href="#">Agencja</a></li>
+                        <li><a class="nav" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="nav" href="#">Kontakt</a></li>
+                    </ul>
+                </nav>        
+        </div>
+                <section class="contactbox">
+                    <div class="menu-contact">
+                        <ul class="contacts">
+                            <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                            <li><a class="contact-link" href="tel:+48111111111">+48 111 111 111</a></li>
+                        </ul>
+                    </div>
+                </section>
+    </div>
 </header>
-<main>
-    <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-    <button type="button">Zamów usługę</button>
-    <section>
-            <ul>
-                <li><strong>LOREM IPSUM</strong>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-        
-                <li><strong>LOREM IPSUM</strong>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-        
-                <li><strong>LOREM IPSUM</strong>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
-        
-                <li><strong>LOREM IPSUM</strong>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</li>
+
+
+
+<main class="block">
+    
+    <section class="main-block-upper">
+        <div class="block">
+            <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button class="button-order"  type="button">Zamów usługę</button>
+        </div>
+    </section>
+    
+   
+    
+    <section class="main-block-middle">
+        <div class="block">
+            <ul class="main-block-middle-list">
+                <li class="main-block-middle-item">
+                    <h4 class="main-block-middle-title">LOREM IPSUM</h4>
+                        <p class="main-block-middle-text">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Nam vel arcu sem. Sed
+                            non sodales dui. Interdum et malesuada
+                        </p>    
+                </li>
+                <li class="main-block-middle-item">
+                    <h4 class="main-block-middle-title">LOREM IPSUM</h4>
+                        <p class="main-block-middle-text">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Nam vel arcu sem. Sed
+                            non sodales dui. Interdum et malesuada
+                        </p>    
+                </li>
+                <li class="main-block-middle-item">
+                    <h4 class="main-block-middle-title">LOREM IPSUM</h4>
+                        <p class="main-block-middle-text">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Nam vel arcu sem. Sed
+                            non sodales dui. Interdum et malesuada
+                        </p>    
+                </li>
+                <li class="main-block-middle-item">
+                    <h4 class="main-block-middle-title">LOREM IPSUM</h4>
+                        <p class="main-block-middle-text">
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Nam vel arcu sem. Sed
+                            non sodales dui. Interdum et malesuada
+                        </p>    
+                </li>
             </ul>   
+        </div>    
     </section>
-    <section>
-        <h2>Czym się zajmujemy</h2>
-            <img src="./images/box1b.jpg" alt="ręce na klawiaturze komputera" height="294" width="370">
-            <img src="./images/box2.jpg" alt="w jednym ręku telefon a druga na padzie laptopa" height="294" width="370">
-            <img src="./images/box3.jpg" alt="tablet w rękach, w tle komputer" height="294" width="370">
+    
+    
+    
+    <section class="main-block-lower">
+        <div class="block">
+            <h2 class="main-block-title">Czym się zajmujemy</h2>
+            <ul class="main-block-lower-list">
+                <li class="main-block-lower-item">
+                    <img src="./images/box1b.jpg" alt="ręce na klawiaturze komputera" height="294" width="370">
+                </li>
+                <li class="main-block-lower-item">
+                    <img src="./images/box2.jpg" alt="w jednym ręku telefon a druga na padzie laptopa" height="294" width="370">
+                </li>
+                <li class="main-block-lower-item">
+                    <img src="./images/box3.jpg" alt="tablet w rękach, w tle komputer" height="294" width="370">
+                </li>
+            </ul>    
+        </div>        
     </section>
-    <section>
-        <h2>Nasz zespół</h2>
-            <figure>
-                <img src="./images/img1.jpg" alt="młody uśmiechnięty brunet  z brodą, w okularach " height="270" width="260">
-                <figcaption>
-                    <b>John Doe</b>
-                    <br>Product Designer
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="./images/img2.jpg" alt="blondynka w czarnej marynarce " height="270" width="260">
-                <figcaption>
-                    <b>John Doe</b>
-                    <br>Frontend Developer
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="./images/img3.jpg" alt="uśmiechniety młodzieniec patrzący w bok" height="270" width="260">
-                <figcaption>
-                    <b>John Doe</b>
-                    <br>Marketing
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="./images/img4.jpg" alt="młody mężczyzna w czarnym podkoszulku " height="270" width="260">
-                <br>
-                <figcaption>
-                    <b>John Doe</b>
-                    <br>UI-designer
-                </figcaption>
-            </figure>
-    </section>
+    <section class="main-block-lowest">
+        <div class="block">
+            <h2 class="main-block-title">Nasz zespół</h2>
+            <ul class="main-block-lowest-list">
+                <li class="lowest-list-item">
+                    <figure>
+                        <img src="./images/img1.jpg" alt="młody uśmiechnięty brunet  z brodą, w okularach " height="260" width="270">
+                    <figcaption class="team-person">
+                        <h4 class="person-name">John Doe</h4>
+                        <p class="person-title">Product Designer</p>
+                    </figcaption>
+                    </figure>
+                </li>
+                <li class="lowest-list-item">
+                    <figure>
+                        <img src="./images/img2.jpg" alt="blondynka w czarnej marynarce " height="260" width="270">
+                    <figcaption class="team-person">
+                        <h4 class="person-name">John Doe</h4>
+                        <p class="person-title">Frontend Developer</p>
+                    </figcaption>
+                    </figure>
+                </li>
+                <li class="lowest-list-item">
+                    <figure>
+                        <img src="./images/img3.jpg" alt="uśmiechniety młodzieniec patrzący w bok" height="260" width="270">
+                    <figcaption class="team-person">
+                        <h4 class="person-name">John Doe</h4>
+                        <p class="person-title">Marketing</p>
+                    </figcaption>
+                    </figure>
+                </li>
+                <li class="lowest-list-item">
+                    <figure>
+                        <img src="./images/img4.jpg" alt="młody mężczyzna w czarnym podkoszulku " height="260" width="270">
+                    <figcaption class="team-person">
+                        <h4 class="person-name">John Doe</h4>
+                        <p class="person-title">UI-designer</p>
+                    </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>    
+    </section>       
 </main>
-    <footer> 
-        <h2>
-            <a href="#">WebStudio</a>
-        </h2>
+<footer class="block"> 
+    
+        
+    <div class="block">
+                    <h2 class="logofooter">
+                        <a href="index.html">
+                        <span class="logo-web">Web</span>
+                        <span class="logo-studio2">Studio</span></a>
+                    </h2>
+        
         <address>
-            m.Warszawa, Aleje Jerozolimskie 21 <br>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+            <ul class="footerlist">
+                <li><a class="adres"> m.Warszawa, Aleje Jerozolimskie 21</a></li>
+                <li><a class="mail-tel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="mail-tel"  href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul>
         </address>
-    </footer> 
+    </div>
+        
+</footer>
+
 </body>
 </html>
