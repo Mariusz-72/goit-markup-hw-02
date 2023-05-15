@@ -16,6 +16,7 @@
     --vanila-white: #f5f4fa;
     --light-grey: #757575;
     --lines-color: #e5e5e5;
+    --vanila: #eeeeee;
 }
 
 /*main elements*/
@@ -437,70 +438,97 @@ footer
 {
     background-color: var(--white);
     width: 100%;
-    margin: 0px;
+    height:1240px;
+    margin-top: 0px;
+    margin-bottom: 94px;
     gap: 30px;
     align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 
 }
 
-.buttons-description
-{
-    text-decoration: none;
-}
 
 
 .buttons-portfolio
 {
     display:flex;
-    row-gap:30px;
-    column-gap: 30px;
-    justify-content:center;
-    font-family: "Roboto";
+    column-gap: 8px;
+    justify-content: center;
     list-style-type: none;
 }
 
 .button-porfolio
 {
+    font-family: "Roboto";
     cursor: pointer;
     background-color: var(--vanila-white);
     color: var(--black);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     text-align: center;
-    min-width: 200px;
+    min-width: 0px;
     border: none;
     border-radius: 4px;
-    padding: 10px 42px;
+    padding: 7px 28px;
     
 }
 
 .porfolio-card-item
 {
     text-align: left;
-    background-color: var(--vanila-white);
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-                0px 2px 2px rgba(0, 0, 0, 0.12),
-                0px 2px 1px rgba(0, 0, 0, 0.22);
+    background-color: var(--white);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+    height: 404px; 
+    width: 370px ; 
+    margin-bottom: 30px;          
     list-style-type: none; 
+    
 }
 
 .block-protfolio
 {
-    padding: 0 0 0 0px;
+    padding: 0 0 0px 0px;
     width: 1600px;
     max-width: 100%;
     margin: 0 auto;   
 }
-
 .button-porfolio:hover,
 .button-porfolio:focus,
 .button-porfolio:active 
 {
     background-color: var(--blue);
     color: var(--white);
+
+}
+
+.portfolio-project
+{
+    padding: 20px 0 0 24px;
+    background-color: var(--white);
+}
+
+.project-title
+{
+    font-style:normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+    letter-spacing: 0.06em;
+    color: var(--black);
+}
+
+.project-type
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 3;
+    text-align: left;
+    letter-spacing: 0.03em;
+    color: var(--light-grey);   
 }
