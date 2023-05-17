@@ -24,6 +24,7 @@ body
 {
     font-family: "roboto", sans-serif;
     font-size: 14px;
+    color: var(--black);
 }
 
 section {
@@ -35,6 +36,7 @@ a
 {
     margin: 0px;
     text-decoration: none;
+    color: var(--dark-gray)
 }
 
 img {
@@ -56,7 +58,7 @@ h1,h2,h3,h4,p
     color: var(--black);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.0;
+    line-height: 1;
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 50px;
@@ -88,11 +90,13 @@ h1,h2,h3,h4,p
 
 h2 
 {
+    font-family: "roboto", sans-serif;
     font-weight: 700px;
     size: 26px;
-    line-height: 1.97;
+    line-height: 36px;
     margin: 20px;
     text-decoration: none;
+    
 }
 
 .menu-navigation
@@ -148,6 +152,7 @@ h2
 .nav 
 {
     font-size: 14px;
+    font-family: "Roboto";
     text-decoration: none;
     color: var(--black);
 }
@@ -268,7 +273,7 @@ h2
     color: var(--black);
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.0;
+    line-height: 1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -399,7 +404,6 @@ h2
     line-height: 24px;
     text-decoration: none;
     opacity: 0.6;
-    
 }
 
 footer
@@ -417,27 +421,16 @@ footer
     
 }
 
-.logo-web{
-    font-family: "raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 3%;
-    color:var(--blue);  
-}
-
 .logo-studio2
 {
     font-family: "raleway";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.0;
+    line-height: 1px;
     letter-spacing: 3%;
     color: var(--white);
 }
-
 
 /* portfolio styles */
 
@@ -468,6 +461,7 @@ footer
 
 .button-porfolio
 {
+    font-family: "Roboto";
     cursor: pointer;
     background-color: var(--vanila-white);
     color: var(--black);
@@ -522,10 +516,10 @@ footer
     font-style:normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 2.0;
+    line-height: 2;
     text-align: left;
     letter-spacing: 0.06em;
-    color: var(--dark-gray);
+    color: var(--black);
 }
 
 .project-type
@@ -533,7 +527,7 @@ footer
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 3.0;
+    line-height: 3;
     text-align: left;
     letter-spacing: 0.03em;
     color: var(--light-grey);   
